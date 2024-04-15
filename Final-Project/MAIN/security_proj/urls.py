@@ -13,7 +13,10 @@ urlpatterns = [
     path('shopping-cart/', views.shopping_cart, name='shopping_cart'),
     path('movie-list/', views.movies_list, name='movie-list'),
     path('shopping-cart/checkout/', views.checkout, name= 'checkout'),
-    
+    path('movie-update/', views.movies_update, name='movie-update'),
+    path('movie-delete/', views.movies_delete, name='movie-delete'),
+    path('movie-update/', views.movies_details, name='movie-details'),
+
     #customer/main/movie-list.html
 ]
 
